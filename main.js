@@ -36,6 +36,7 @@ async function main() {
             host: server_address,
             port: server_port,
             secure: true,
+            secureConnection: true,
             auth: {
                 user: username,
                 pass: password,
